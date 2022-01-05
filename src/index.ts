@@ -2,7 +2,7 @@ import * as Phaser from 'phaser';
 import Scenes from './Scenes';
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
-    title: 'Team 1 Car Game',
+    title: 'Phaser Starter Kit',
     type: Phaser.AUTO,
     backgroundColor: '#000000',
     parent: 'phaser-game',

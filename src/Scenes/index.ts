@@ -1,3 +1,3 @@
-import { InitialLoad } from './initial-load'
+import { PreLoader } from './PreLoader'
 
-export default [InitialLoad];
+export default [PreLoader];

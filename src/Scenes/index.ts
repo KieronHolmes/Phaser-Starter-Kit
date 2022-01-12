@@ -1,3 +1,5 @@
-import { PreLoader } from './PreLoader'
+import {Boot} from "./Boot";
+import {Preloader} from "./Preloader";
+import {MainMenu} from "./MainMenu";
 
-export default [PreLoader];
+export default [Boot, Preloader, MainMenu];

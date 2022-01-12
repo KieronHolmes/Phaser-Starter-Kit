@@ -13,12 +13,11 @@ The overall file structure of this Starter Kit, with a brief explanation of each
 │   │   └── Images                  # Images Asset Directory
 │   │       └── phaser-logo.png     # Phaser Logo
 │   ├── Helpers                     # Phaser Custom Helpers Directory
-│   │   └── TweenHelper.ts          # Compiled files (alternatively `dist`)
 │   ├── Scenes                      # Phaser Scenes Directory
-│   │   ├── PreLoader.ts            # Preloader Scene (Phaser Logo and Loading Text)
-│   │   └── index.ts                # Scene Includes File
+│   │   ├── Preloader.ts            # Preloader Scene (Phaser Logo and Loading Text)
+│   │   └── game.ts                # Scene Includes File
 │   ├── index.html                  # HTML Template File
-│   └── index.ts                    # Phaser Game Setup/Entry Script
+│   └── game.ts                    # Phaser Game Setup/Entry Script
 ├── tsconfig.json                   # TypeScript Configuration File
 ├── webpack.common.js               # Common Webpack Configuration Attributes
 ├── webpack.dev.js                  # Development Webpack Configuration
@@ -69,7 +68,6 @@ This Starter Kit was created as a base template for a University project, theref
 * [Babel](https://babeljs.io/) - Transcompiler used for generating backwards compatible JavaScript for older browsers.
 * [Webpack](https://webpack.js.org/) - JavaScript module bundler/transformer used to generate production assets.
 * [Phaser](https://phaser.io/) - HTML5 Game Framework used for the core of this project.
-* [Stephen Garside](https://www.stephengarside.co.uk/blog/phaser-3-flashing-text-easy-example/) - Phaser flashing helper used at `/src/Helpers/TweenHelper.ts`.
 
 In addition to the above, the following community additions have been used in this project:
 * CopyWebpackPlugin

@@ -4,7 +4,7 @@ const path = require('path');
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: './src/game.ts',
     module: {
         rules: [
             {

@@ -5,23 +5,7 @@ Currently, this Starter Kit only includes a pre-loading screen for image/sound a
 ## File Structure
 The overall file structure of this Starter Kit, with a brief explanation of each file/directory have been included below.
 ```bash
-.
-├── README.md                       # Readme File for GitHub
-├── package.json                    # NPM Packages
-├── src                             # Project Source Files
-│   ├── Assets                      # Custom Assets
-│   │   └── Images                  # Images Asset Directory
-│   │       └── phaser-logo.png     # Phaser Logo
-│   ├── Helpers                     # Phaser Custom Helpers Directory
-│   ├── Scenes                      # Phaser Scenes Directory
-│   │   ├── Preloader.ts            # Preloader Scene (Phaser Logo and Loading Text)
-│   │   └── game.ts                # Scene Includes File
-│   ├── index.html                  # HTML Template File
-│   └── game.ts                    # Phaser Game Setup/Entry Script
-├── tsconfig.json                   # TypeScript Configuration File
-├── webpack.common.js               # Common Webpack Configuration Attributes
-├── webpack.dev.js                  # Development Webpack Configuration
-└── webpack.prod.js                 # Production Webpack Configuration
+# File structure temporarily removed
 ```
 
 ## Getting Started
@@ -40,6 +24,9 @@ A series of basic NPM scripts have been developed to streamline the process of g
 | `npm run dev` | Builds development assets to `/dist/`. |
 | `npm run prod` | Builds production-ready (minified) assets to `/dist/`. |
 | `npm run watch` | Launches Webpack's internal webserver with hot-reloading enabled for realtime testing during development. Defaults to port **9000**. URL to access the environment will be displayed once the command has been run.|
+| `npm run lint` | Runs ESLint against the `/src/` directory. |
+| `npm run style` | Runs Prettier against the `/src/` directory|
+
 
 ### Customising HTML Template
 In order to customise the HTML template, you are able to modify the `/src/index.html` file within this kit. If you are using the `npm run watch` command, all changes will be recompiled by **HtmlWebpackPlugin** and reloaded in any active browser windows. Otherwise, you will need to re-run a Development/Production build using the appropriate command.
@@ -77,3 +64,5 @@ In addition to the above, the following community additions have been used in th
 * TerserWebpackPlugin
 * WebpackMerge
 * TsLoader
+* Prettier
+* ESLint
